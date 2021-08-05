@@ -1,0 +1,33 @@
+{
+  "bots": [
+    {
+      "name": "Long",
+      "self_id": 2457444952
+    }
+  ],
+  "admin": 2457444952,
+  "super_user": [
+    2457444952 
+  ],
+  "host": "127.0.0.1",
+  "port": 8080,
+  "log_level": "info",
+  "plugins" : {
+    "enable_reply_tome": true,
+    "welcome": [
+      {
+        "group_id": 232226765,
+        "message": "有关于学校的各项了解可以咨询一下在场的学长学姐，\n专业性问题可以搜索一下各专业的人来了解。\n新生常见消息在群精华里，可以先一步看一下。\n记得改一下名片谢谢配合\n[CQ:image,file=file:////home/viat/vv_images/gif/keli.gif]\n 发送`/lq帮助`，`/lqhelp`触发命令文档"
+      },
+
+      {
+        "group_id": 693646618,
+        "message": "新生墙都是假的不要加，有问题问木木学长 \n发送`/lqhelp`触发命令文档"
+      },
+      {
+        "group_id": 623908643,
+        "message": "看看群相册公告可解决80%常见问题\n 发送`/lq帮助`，`/lqhelp`触发命令文档"
+      }
+    ]
+  }
+}
